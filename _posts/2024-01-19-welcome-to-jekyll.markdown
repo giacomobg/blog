@@ -1,29 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-01-19 17:58:50 +0100
-categories: jekyll update
+title:  "How to publish your own portfolio (for free!)"
+date:   2024-01-19 18:00:00 +0000
+categories: dataviz portfolio
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This is a work in progress post I am writing about how I created my own portfolio.
 
-Jekyll requires blog post files to be named according to the following format:
+- I built some basic HTML. I'll add a guide on an approach to starting of with this, but you could just Chat-GPT a first draft.
+- I put it in a Github repository
+- I used Github pages to publish it. A caveat: It's not guaranteed that this will be free forever, but it has been for a while. I've noticed more and more people hosting work with Netlify or Vercel too.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Done!
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+To make it more professional
 
-Jekyll also offers powerful support for code snippets:
+- I bought a domain name from namecheap.com and I updated the CNAME and A records to allow Github to redirect it to my Github pages.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
